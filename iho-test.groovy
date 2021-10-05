@@ -20,7 +20,7 @@ spec:
 
  containers:
  - name: $podname
-   image: hashicorp/terraform:1.0.0
+   image: ikambarov/terraform:0.14
    args:
    - sleep
    - "999999999"
